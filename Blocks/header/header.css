@@ -1,5 +1,5 @@
-@import url("./h__image/header__image.css");
-@import url("./h__lang/header__lang.css");
+@import url("./h--image/header__image.css");
+@import url("./h--lang/header__lang.css");
 
 .header {
   display: flex;
