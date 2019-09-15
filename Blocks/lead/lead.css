@@ -1,42 +1,35 @@
-@import url('./__title/lead__title.css');
-@import url('./__subtitle/lead__subtitle.css');
-@import url('./__image/lead__image.css');
-@import url('./__caption/lead__caption.css');
+@import url("./l__title/lead__title.css");
+@import url("./l__subtitle/lead__subtitle.css");
+@import url("./l__image/lead__image.css");
+@import url("./l__caption/lead__caption.css");
 
-.lead {  
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 985px;
 
-    max-width: 985px;
-   
-    font-family: 'inter';
-
+  font-family: "inter";
 }
 
 .lead_indent {
-
-    margin: 58px auto 0 auto;
-
+  margin: 58px auto 0 auto;
 }
 
-@media screen and (max-width : 1279px) {
-
-    .lead {
-        width: 90.5%;
-    }
+@media screen and (max-width: 1279px) {
+  .lead {
+    width: 90.5%;
+  }
 }
 
-@media (max-width : 1023px) {
-    .lead{
-        width: 100%;
-    }
+@media (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
 }
-@media (max-width : 767px) {
-
-    .lead_indent {
-
-        margin-top: 50px;
-    }
+@media (max-width: 767px) {
+  .lead_indent {
+    margin-top: 50px;
+  }
 }

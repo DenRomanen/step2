@@ -1,62 +1,51 @@
-
-@import url('./__link/footer__link.css');
-@import url('./__name/footer__name.css');
+@import url("./f__link/footer__link.css");
+@import url("./f__name/footer__name.css");
 
 .footer {
+  position: relative;
 
-    position: relative;   
+  display: flex;
 
-    display: flex;
+  max-width: 1185px;
 
-    max-width: 1185px;
-
-    font-family: 'inter';
+  font-family: "inter";
 }
 
 .footer_indent {
-
-    margin: 155px auto 0 auto;
-    padding-bottom: 48px;
-
+  margin: 155px auto 0 auto;
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 1024px) {
-
-    .footer {
-        width: 92%;
-    }
+  .footer {
+    width: 92%;
+  }
 }
-@media (max-width : 1023px) {
-
-    .footer {
-        width: 94.5%;
-        flex-wrap: wrap;
-    }
-    .footer_indent {
-
-        margin: 100px auto 0 auto;
-        padding-bottom: 133px;
-    }
+@media (max-width: 1023px) {
+  .footer {
+    width: 94.5%;
+    flex-wrap: wrap;
+  }
+  .footer_indent {
+    margin: 100px auto 0 auto;
+    padding-bottom: 133px;
+  }
 }
 
-@media (max-width : 767px) {
+@media (max-width: 767px) {
+  .footer {
+    max-width: 92%;
 
-    .footer {
-        
-        max-width: 92%;
-
-        flex-direction: column;
-    }
-    .footer_indent {
-
-        margin-top: 37px;
-        padding-bottom: 24px;
-    }
+    flex-direction: column;
+  }
+  .footer_indent {
+    margin-top: 37px;
+    padding-bottom: 24px;
+  }
 }
 
-@media (max-width : 374px) { 
-
-    .footer_indent {
-        margin-top: 43px;
-    }
+@media (max-width: 374px) {
+  .footer_indent {
+    margin-top: 43px;
+  }
 }
